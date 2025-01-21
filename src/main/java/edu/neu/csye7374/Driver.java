@@ -11,6 +11,8 @@ public class Driver {
 		System.out.println("============Main Execution Start===================\n\n");
 
          //Add your code in between these two print statements
+		StockMarket stockMarket = new StockMarket();
+        stockMarket.demo();  // Run the demo method
 		 
 		System.out.println("\n\n============Main Execution End===================");
 	}
